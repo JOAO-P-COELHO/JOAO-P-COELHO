@@ -1,5 +1,6 @@
 *{
     font-family: 'Mooli', sans-serif;
+   
 }
 
 header{
@@ -43,8 +44,9 @@ body::-webkit-scrollbar {
 
 #imagex{
     width: 100%;
-    height: 100%;
+    height: 400px;
     z-index: 0;
+    object-fit: cover;
 }
 
 nav ul p {
@@ -75,14 +77,13 @@ nav ul li:nth-of-type(1) {
 nav ul li:hover{
     font-size:14px;
     font-weight: bold;
-    color:red !important;
-}
+    }
 
 
 footer{
     height: 20px;
     text-align: center;
-    padding-top: auto;
+    padding-top: 16px;
 }
 
 ul {
@@ -90,8 +91,39 @@ ul {
     
 }
 
-
 a, a:hover, a:focus, a:active, a:link {
     text-decoration: none !important;
     color: black !important;
 }
+
+.info-box{
+    top:30%;
+    background: rgba(16, 137, 78, 0.189);
+    width: 100%;
+    padding: 0px;
+    border-bottom: 0.5px solid rgba(216, 197, 197, 0.442);
+    border-top: 0.5px solid rgba(216, 197, 197, 0.442);
+}
+
+.info-title{
+    padding-top: ;
+    cursor: pointer; 
+    text-align: center;     
+}
+.info-title p{
+    margin-bottom: 0px;    
+   }
+
+.info-content p{
+    padding:10px;
+    text-align: center; 
+    background: rgba(255, 255, 255, 0.822);;
+    margin: 0px;
+    -left: 0px;
+}
+
+.info-title:hover{
+    font-size:17px;
+    font-weight: bold;
+}
+
