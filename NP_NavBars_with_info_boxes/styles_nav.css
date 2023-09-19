@@ -1,6 +1,6 @@
 *{
     font-family: 'Mooli', sans-serif;
-   
+
 }
 
 header{
@@ -118,7 +118,7 @@ a, a:hover, a:focus, a:active, a:link {
     text-align: center; 
     background: rgba(255, 255, 255, 0.822);;
     margin: 0px;
-    -left: 0px;
+   
 }
 
 .info-title:hover{
@@ -126,3 +126,34 @@ a, a:hover, a:focus, a:active, a:link {
     font-weight: bold;
 }
 
+.content-box{
+    background-color: rgba(111, 165, 139, 0.189);
+    padding: 0px;
+    text-align: center;
+    margin:0;
+    border:0;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-bottom:0px;
+    cursor: pointer; 
+    }
+
+.content-before:hover{
+    font-size:17px;
+    font-weight: bold; 
+}
+
+.content-before{
+    padding: 2px;
+    margin:0;
+    border:0;
+      
+}
+.content-after{
+    display:none;
+    opacity:0;
+    text-align: center; 
+    padding: 0px;
+    background-color: white;
+      
+}
